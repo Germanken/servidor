@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="EstiloFormulario.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<header>
+<div class="logo">
+<img src="Imagenes/logo1-Photoroom.png" alt="logo">
+</div>
+<nav>
+  <li>
+      <a href="Index.html">Inicio</a>
+      <a href="Nosotros.html">Nosotros</a>
+      <a href="Servicios.html">Servicios</a>
+      <a href="Contacto.html">Contacto</a>
+  </li>
+</nav>
+</header>
+<div class="Formulario">
+<form >
+  <h2>Información de Contacto</h2><br>
+  
+  <form id="contacForm"> 
+  Nombre Completo: <input type="text" id="nombre" requiered><br>
+  Correo Electrónico: <input type="email" id="email" required><br>
+  Teléfono: <input type="tel" id="telefono" required>
+  <br>
+</div> 
+<br>
+<div class="Formulario2">
+  <h2>Detalles del Caso</h2><br>
+  <label>Tipo de Derecho:</label>
+  <br><br>
+  <div id="tipo-derecho-radios">
+    <label>
+      <input type="radio" name="tipo-derecho" value="conciliación en derecho" onchange="mostrarExplicacion(this.value)"> Conciliación en derecho
+    </label>
+    <label>
+      <input type="radio" name="tipo-derecho" value="civil" onchange="mostrarExplicacion(this.value)"> Derecho Civil
+    </label>
+    <label>
+      <input type="radio" name="tipo-derecho" value="laboral" onchange="mostrarExplicacion(this.value)"> Derecho Laboral
+    </label>
+    <label>
+      <input type="radio" name="tipo-derecho" value="penal" onchange="mostrarExplicacion(this.value)"> Derecho Penal
+    </label>
+    <label>
+      <input type="radio" name="tipo-derecho" value="administrativo y constitucional" onchange="mostrarExplicacion(this.value)"> Derecho
+      Administrativo y Constitucional
+    </label>
+    <label>
+      <input type="radio" name="tipo-derecho" value="derecho en propiedad horizontal" onchange="mostrarExplicacion(this.value)"> Derecho en propiedad horizontal
+    </label>
+  </div>
+</div>
+  <div id="explicacion"></div>
+
+  <label for="caso">Describe tu caso:</label>
+  <textarea id="caso" name="caso" rows="5" required placeholder="En un máximo de 400 palabras cuéntanos los aspectos más relevantes"></textarea>
+
+  <button type="submit">Enviar</button>
+  </from>
+  <script src="Formulario.js"></script>
+ 
+
+  <script src="ValidacionFormulario.js"> </script>
+
+</body>
+<footer>
+  <div class="contfooter">
+      <div class="redsocial">
+          <a href="https://web.facebook.com/watch/iuspopuli.abogados/?paipv=0&eav=AfaokGmuWga4ks7gkwFseeIBzqwWsrMfV-CObxCjedoPRZOzR5F61yGHlvP4SOE9dB8"><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://web.whatsapp.com/send?phone=573156498451"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+  
+      <div class="footernav">
+
+          <li>
+              <a href="Index.html">Inicio</a>
+              <a href="Nosotros.html">Nosotros</a>
+              <a href="Servicios.html">Servicios</a>
+              <a href="Contacto.html">Contacto</a>
+          </li>
+
+      </div>
+      <div class="fondofooter">
+          <p>Ius Populi Copyright &copy;2024; Disenado por <span class="designer">Grupo 4 DWFS-49</span></p>
+      </div>
+  </div>
+</footer>
+</html>

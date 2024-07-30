@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(Imagenes/black_lozenge.png);
+
+}
+
+.encabezado img {
+    width: 100%;
+    max-width: 300px;
+    /* ajusta según necesites */
+    height: auto;
+    padding-left: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #34404a;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #cfb344;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 180%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-left: 2%;
+}
+
+nav li a:hover {
+    background-color: #ffffff
+}
+
+body {
+    background-image: url(Imagenes/black_lozenge.png);
+}
+
+main {
+    background-image: url(Imagenes/black_lozenge.png);
+
+}
+
+.flexprin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+#textoprin {
+    width: 600px;
+    height: auto;
+    border: 6px solid #cfb344;
+    border-radius: 1px;
+    border-style: solid;
+    padding: 40px;
+    margin-left: 20px;
+    background-color: #34404a;
+}
+
+#imagppal {
+    width: 600px;
+    height: auto;
+    border: 6px solid #cfb344;
+    border-radius: 1px;
+    border-style: solid;
+    object-fit: cover;
+    margin-left: 20px;
+
+
+}
+
+#textoprin h2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #cfb344;
+    font-size: 2em;
+    text-align: center;
+}
+
+#textoprin p {
+    margin: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #cfb344;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.frase1 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+    color: #cfb344;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+.listaserv a:hover {
+    color: #ffffff;
+    opacity: 0.5;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: oblique;
+    font-size: 3em;
+    color: #cfb344;
+    text-align: center;
+
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.servicios a {
+    text-decoration: none;
+    color: #cfb344;
+    border: #cfb344 3px solid;
+    background-color: #34404a;
+    font-size: 1.5em;
+    align-items: center;
+
+}
+
+.servicios a i {
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.servicios a:hover {
+    opacity: 0.5;
+    background-image: url(Imagenes/black_lozenge.png);
+    transition: 0.5s;
+}
+
+.textmed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+.textmed p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #cfb344;
+    font-size: 1.3em;
+    text-align: justify;
+    width: 40%;
+    border: #cfb344 6px solid;
+    border-radius: 1px;
+    margin-left: 30px;
+    padding: 5%;
+    background-color: #34404a;
+    }
+
+.imgserv {
+    width: 600px;
+    height: 100%;
+    border: 6px solid #cfb344;
+    border-radius: 1px;
+
+}
+
+.talentoh {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 30%;
+    margin-right: 20%;
+    max-width: 100%;
+    padding: 2vw;
+    text-align: justify;
+    font-size: 1vw;
+
+}
+
+.talentoh img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border: 6px solid #cfb344;
+    border-radius: 1px;
+    border-style: inset;
+}
+
+.talentoh h3 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #cfb344;
+    font-size: 140%;
+}
+
+.talentoh p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #cfb344;
+    font-size: 100%;
+    margin-right: 200px;
+}
+
+.equipo {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.equipo h3 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #cfb344;
+    margin-right: 10px;
+}
+
+.equipo p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1em;
+    color: #cfb344;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.equipo .flex-item {
+    width: 20%;
+    max-height: 10%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    border: #cfb344 solid;
+    background-color: #34404a;
+
+
+}
+
+#imavima {
+    max-width: 10vh;
+    max-height: 5%;
+    object-fit: fill;
+    border: #cfb344 solid;
+
+
+}
+
+#imalisa {
+    max-width:10vh;
+    max-height: 5%;
+    border: #cfb344 solid;
+
+}
+
+@media only screen and 
+(max-width: 650px) {
+    #imavima {
+        width: 0%;
+    }
+    #imalisa{
+        width: 0%;
+    }
+}
+
+.testi {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%
+}
+
+.testi img {
+    width: 40%;
+    height: fit-content;
+    align-self: center;
+    margin-left: 33%;
+    border: #cfb344 1px solid;
+    opacity: 0.8;
+}
+
+.testi-flex {
+    width: 20%;
+    margin-right: 0;
+    padding: 0%;
+    border: #cfb344 2px solid;
+    background-color: #34404a;
+    margin-left: 2vh;
+}
+
+.testi p {
+    width: 100%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: oblique;
+    font-size: 1em;
+    color: #cfb344;
+    text-align: center;
+}
+
+
+.partefin {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.partefin iframe {
+    border: #cfb344 solid 2px;
+    margin-right: 20px;
+    height: 150%;
+
+}
+
+.partefin p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1em;
+    color: #cfb344;
+    text-align: center;
+}
+
+footer {
+    background-image: url(Imagenes/black_lozenge.png);
+}
+
+.contfooter {
+    width: 100%;
+    padding: 50px 30px 20px;
+}
+
+.redsocial {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.redsocial a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #cfb344;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.redsocial a i {
+    font-size: 2em;
+    color: #34404a;
+    opacity: 0.9;
+}
+
+.redsocial a:hover {
+    background-image: url(Imagenes/black_lozenge.png);
+    transition: 0.5s;
+}
+
+.footernav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.footernav li a {
+    color: #cfb344;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+    opacity: 0.4;
+    transition: 0.5s;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+}
+
+.footernav li a:hover {
+    opacity: 1;
+}
+
+.fondofooter {
+    margin-bottom: 20px;
+}
+
+.fondofooter p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    color: #cfb344;
+    padding: 20px;
+
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+}
